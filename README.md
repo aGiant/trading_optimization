@@ -8,7 +8,7 @@ Updated Files:
   - prepared data using predicted stock prices for next 7 days
   - correlation matrix was caculated
   - return per day 
-- outputs:
+- outputs with best stability and max return:
   - which stock to buy/sell
   - how many units
   - used capital
