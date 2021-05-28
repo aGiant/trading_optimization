@@ -10,9 +10,9 @@ Updated Files:
   - return per day 
 
 Example under Linux using GLPK:
-
-*glpsol -m trading_optimization_hedger.mod -d input_data_stocks.dat*
-
+```
+glpsol -m trading_optimization_hedger.mod -d input_data_stocks.dat*
+```
 GLPK is available as a Debian package. The Debian package system is used by Ubuntu. If you have administrator rights, the following call should install GLPK in its entirety:
 
 $ sudo apt-get install glpk
