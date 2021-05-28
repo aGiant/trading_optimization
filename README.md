@@ -20,6 +20,12 @@ glpsol -m trading_optimization_hedger.mod -d input_data_stocks.dat
 ```
 Results under Ubuntu:
 ```
+Minimum Absolute Deviation (MAD) Portfolio
+
+capital issue, need more for minimal positive reutrn: 0.000
+  Return in $ = 535.35$, percnetage = 2.68
+  Variance =  0.3465
+  
 optimal execution at time 2021-05-28 11:43:12:
                   Weight,  Unit,   Price,   Action, Money, check_n
            SPOT  -0.0900,   -6,     311.00, sell,     1866.00, -0.093 // sell 6 units SPOT 
