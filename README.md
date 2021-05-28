@@ -37,6 +37,7 @@ optimal execution at time 2021-05-28 11:43:12:
 GLPK is available as a Debian package. The Debian package system is used by Ubuntu. If you have administrator rights, the following call should install GLPK in its entirety:
 
 $ sudo apt-get install glpk
+
 If you only want GLPSOL, the following call is sufficient:
 
 $ sudo apt-get install glpk-utils
